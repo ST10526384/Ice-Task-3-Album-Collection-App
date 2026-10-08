@@ -9,8 +9,8 @@ import {
   View,
 } from 'react-native';
 
-// npx expo install @expo/ui
-import { Picker } from '@expo/ui/community/picker';
+// npx expo install not @expo/ui but @react-native-picker/picker intsead 
+import { Picker } from '@react-native-picker/picker';
 
 type Album = {
   id: string;
