@@ -61,7 +61,7 @@ export default function App() {
     }
 
     if (
-      title.trim().length < MIN_TEXT_LENGTH &&
+      title.trim().length < MIN_TEXT_LENGTH ||
       title.trim().length > MAX_TITLE_LENGTH
     ) {
       Alert.alert(
