@@ -156,7 +156,7 @@ export default function App() {
       rating: Number(rating),
     };
 
-    setAlbums([temporaryAlbum]);
+    setAlbums((currentAlbums) => [...currentAlbums, temporaryAlbum]);
 
     setTitle('');
     setArtist('');
@@ -167,7 +167,7 @@ export default function App() {
 
   const handleDelete = (id: string) => {
     setAlbums((currentAlbums) =>
-      currentAlbums.filter((album) => album.id === id)
+      currentAlbums.filter((album) => album.id !== id)
     );
   };
 
