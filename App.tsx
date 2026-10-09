@@ -16,9 +16,9 @@ type Album = {
   id: string;
   title: string;
   artist: string;
-  year: string;
+  year: number;
   genre: string;
-  rating: string;
+  rating: number;
 };
 
 const genres: string[] = [
