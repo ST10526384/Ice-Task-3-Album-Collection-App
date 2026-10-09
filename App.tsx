@@ -77,7 +77,7 @@ export default function App() {
     }
 
     if (
-      artist.trim().length < MIN_TEXT_LENGTH &&
+      artist.trim().length < MIN_TEXT_LENGTH ||
       artist.trim().length > MAX_ARTIST_LENGTH
     ) {
       Alert.alert(
