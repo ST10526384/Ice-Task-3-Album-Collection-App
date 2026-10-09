@@ -221,13 +221,13 @@ export default function App() {
 
       <Text style={styles.label}>Genre</Text>
       <Picker
-        selectedValue={title}
+        selectedValue={genre}
         onValueChange={(value) => setGenre(value)}
       >
         <Picker.Item label="Select a genre..." value="" />
 
         {genres.map((item) => (
-	  <Picker.Item key={item} label={item} value={genre} />
+	  <Picker.Item key={item} label={item} value={item} />
 	))}
       </Picker>
 
@@ -250,7 +250,7 @@ export default function App() {
 
       <FlatList
         data={albums}
-        keyExtractor={(item) => item.title}
+        keyExtractor={(item) => item.id}
         renderItem={renderAlbum}
         ListEmptyComponent={
           <Text style={styles.emptyMessage}>
