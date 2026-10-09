@@ -37,6 +37,9 @@ In brief I've tested the begin launch to see if the picker, form and etc if they
 add a valid album as well. Lastly I checked if I can add more than one album and see if I can delete them. 
 
 ## Screenshot of App running:
+<img width="526" height="939" alt="Screenshot 2026-10-09 102320" src="https://github.com/user-attachments/assets/ccbc9f3e-8a94-4bca-88f4-732a5ae27ec0" />
+
+
 
 ## Conclusion:
 In this ice task 3 I was able to try and find the errors in the code such as type script errors, picker import error and etc. However the most difficult or challenging errors were
